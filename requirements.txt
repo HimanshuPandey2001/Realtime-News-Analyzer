@@ -1,8 +1,12 @@
 streamlit==1.32.0
 requests==2.28.1
 transformers==4.33.3
-torch==2.1.2+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.2 --extra-index-url https://download.pytorch.org/whl/cpu
 python-dotenv==1.0.0
 rake-nltk==1.0.6
 nltk==3.8.1
 gTTS==2.4.0
+librosa==0.10.2
+numba==0.59.0
+numpy==1.26.4
+soundfile==0.12.1
